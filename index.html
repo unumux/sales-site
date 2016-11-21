@@ -2,23 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Sales Website</title>
     <link rel="stylesheet" href="styles/site.min.css">
 </head>
 <body>
+    <div class="global-alert" role="alert">
+        <div class="global-alert__content">Due to Hurricane Brian Our Contact Centers Are Currently Closed.</div>
+        <button class="global-alert__close">x</button>
+    </div>
+    <div class="skip-nav"><a href="" class="skip-nav__link">Skip to Content</a></div>
     <header class="page-header" role="banner">
         <div class="page-header__branding"><a class="logo-link" href="/" title="go to home page"><img class="logo-link__image" src="http://placehold.it/100x50" alt="logo image"></a></div>
         <div class="page-header__navigation">
             <nav class="primary-nav" role="navigation">
+                <h1 class="primary-nav__heading">Primary Site Navgation</h1>
                 <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">About</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Portfolio</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Things</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Contact</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">About Us</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Products</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">News</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
+        <div class="page-header__extras"></div>
     </header>
+    <main class="page-content" role="main">
+        <section class="banner" role="region">
+            <h1 class="banner__heading">The Flowtron 9000 is Here!</h1>
+            <div class="banner__content">
+                <p>Flowtron 9000 will exceed all your expectations and meet all of your needs. And it's great!</p>
+            </div>
+            <div class="banner__actions">
+                <button>Buy One Now!</button>
+            </div>
+        </section>
+        <!-- PICK BACK UP HERE TALK ABOUT SUMMARY SUB-ELEMENTS -->
+        <section class="summary" role="region">
+            <h1 class="summary__heading">Featured Products</h1>
+            <div class="summary__content"></div>
+            <div class="summary__components">
+                <div class="grid">
+                    <div class="grid__item">
+                        <img src="http://fillmurray.com/50/50" alt="Bill Murray Product">
+                        <h1>Product</h1>
+                        <p>Lorem ipsum dolor sit. <a href="#">click to learn more</a></p>
+                    </div>
+                    <div class="grid__item">
+                        <img src="http://fillmurray.com/50/50" alt="Bill Murray Product">
+                        <h1>Product</h1>
+                        <p>Lorem ipsum dolor sit. <a href="#">click to learn more</a></p>
+                    </div>
+                    <div class="grid__item">
+                        <img src="http://fillmurray.com/50/50" alt="Bill Murray Product">
+                        <h1>Product</h1>
+                        <p>Lorem ipsum dolor sit. <a href="#">click to learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="summary__actions"></div>
+        </section>
+    </main>
+    <footer class="page-footer" role="contentinfo">
+        <div class="page-footer__branding"></div>
+        <div class="page-footer__navigation">
+            <nav class="footer-nav" role="navigation" aria-label="Footer Navigation">
+                <h1 class="footer-nav__heading">Footer Nav</h1>
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">About Us</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Products</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">News</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Contact Us</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Community</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Newsroom</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Legal</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Privacy Policy</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Site Map</a></li>
+                </ul>
+            </nav>
+        </div>
+        <small class="page-footer__copyright">© 2016 Cool Store Company is a subsidiary of Even Cooler Store Company.</small>
+        <div class="page-footer__content">
+            <p>Cool Store Company products are all made in America and very cool things.</p>
+        </div>
+    </footer>
     <script src="scripts/site.min.js"></script>
 </body>
 </html>

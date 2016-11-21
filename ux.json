@@ -8,7 +8,7 @@
             "node_modules/@unumux/components/@(components|mixins)/**/**/_*.scss",
             "node_modules/@unumux/components/@(components|mixins)/**/**/**/_*.scss",
             "node_modules/@unumux/theme-enterprise-high-contrast/_*.scss",            
-            "node_modules/@unumux/theme-enterprise-high-contrast/@(base-elements|colors|fonts)/_*.scss"
+            "node_modules/@unumux/theme-enterprise-high-contrast/@(base-elements|colors|fonts)/**/_*.scss"
         ],
         "dest": "styles"
     },
