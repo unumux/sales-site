@@ -1,9 +1,17 @@
 {
-    "private": true,
-    "devDependencies": {
-        "@unumux/ux-build-tools": "^3.4.0"
-    },
-    "scripts": {
-        "start": "gulp --gulpfile=node_modules/@unumux/ux-build-tools/index.js --cwd=."
-    }
+  "private": true,
+  "devDependencies": {
+    "@unumux/ux-build-tools": "^3.4.0",
+    "a11y": "^0.4.1",
+    "npm-watch": "^0.1.6",
+    "phantomjs": "^2.1.7"
+  },
+  "scripts": {
+    "start": "gulp --gulpfile=node_modules/@unumux/ux-build-tools/index.js --cwd=.",
+    "a11y": "a11y localhost:3000 ; exit 0",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "a11y": "*.html"
+  }
 }

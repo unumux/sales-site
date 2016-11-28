@@ -6,113 +6,154 @@
     <link rel="stylesheet" href="styles/site.min.css">
 </head>
 <body>
-    <div class="global-alert" role="alert">
-        <div class="global-alert__content">Due to Hurricane Brian Our Contact Centers Are Currently Closed.</div>
-        <button class="global-alert__close">x</button>
-    </div>
-    <div class="skip-nav"><a href="#content" class="skip-nav__link">Skip to Content</a></div>
-    <header class="page-header" role="banner">
-        <div class="page-header__branding"><a class="logo-link" href="/" title="go to home page"><img class="logo-link__image" src="http://placehold.it/100x100" alt="logo image"></a></div>
-        <div class="page-header__navigation">
-            <nav class="primary-nav" role="navigation">
-                <h1 class="primary-nav__heading">Primary Site Navgation</h1>
-                <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">About Us</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Products</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">News</a></li>
-                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="page-header__content"></div>
-    </header>
-    <main class="page-content" id="content" role="main">
-        <section class="banner" role="region">
-            <h1 class="banner__heading">The Flowtron 9000 is Here!</h1>
-            <div class="banner__content">
-                <p>Flowtron 9000 will exceed all your expectations and meet all of your needs. And it's great!</p>
-            </div>
-            <div class="banner__actions">
-                <a class="button" href="flowtronpage.html">Buy One Now!</a>
-            </div>
-        </section>
+    <!-- Page Wrapper -->
+    <div class="wrapper">
 
-        <section class="summary" role="region">
-            <h1 class="summary__heading">New Products</h1>
-            <div class="summary__content">
-                <div class="html">
-                    <p>Here's this month's new products. <a href="#">Contact Us</a> to learn more.</p>
-                </div>
-                <div class="grid">
-                    <div class="grid__item">
-                        <article>
-                            <img src="http://fillmurray.com/100/100" alt="Bill Murray Product">
-                            <h1>New Product</h1>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="button">check it out</a>
-                        </article>
-                    </div>
-                    <div class="grid__item">
-                        <article>
-                            <img src="http://fillmurray.com/100/100" alt="Bill Murray Product">
-                            <h1>New Product</h1>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="button">check it out</a>
-                        </article>
-                    </div>
-                    <div class="grid__item">
-                        <article>
-                            <img src="http://fillmurray.com/100/100" alt="Bill Murray Product">
-                            <h1>New Product</h1>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="button">check it out</a>
-                        </article>
-                    </div>
-                </div>
-            </div>
-            <div class="summary__actions">
-                <a href="#">See all new products</a>
-            </div>
-        </section>
-        <section class="summary" role="region">
-            <h1 class="summary__heading">Sales Person of the Month</h1>
-            <div class="summary__content">
-                <div class="html">
-                    <h1>Kyle Wagner</h1>
-                    <img src="http://fillmurray.com/200/150" alt="Kyle Wagner">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste placeat consectetur sequi fugit magnam blanditiis cum itaque distinctio et id.</p>
-                </div>
-            </div>
-            <div class="summary__actions">
-                <!-- no actions for this summary -->
-            </div>
-        </section>
-    </main>
-    <footer class="page-footer" role="contentinfo">
-        <div class="page-footer__branding"><a class="logo-link" href="/" title="go to home page"><img class="logo-link__image" src="http://placehold.it/100x100" alt="logo image"></a></div>
-        <div class="page-footer__navigation">
-            <nav class="footer-nav" role="navigation">
-                <h1 class="footer-nav__heading">Footer Nav</h1>
-                <ul class="footer-nav__list">
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">About Us</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Products</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">News</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Contact Us</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Community</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Newsroom</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Legal</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Privacy Policy</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Site Map</a></li>
-                </ul>
-            </nav>
+        <!-- ////Global Alert Component -->
+        <div class="global-alert" role="alert">
+            <div class="global-alert__content">Due to Hurricane Brian Our Contact Centers Are Currently Closed.</div>
+            <!-- ////Button Component -->
+            <button class="global-alert__close">x</button>
         </div>
-        <small class="page-footer__copyright">© 2016 Cool Store Company is a subsidiary of Even Cooler Store Company.</small>
-        <div class="page-footer__content">
-            <div class="html">
-                <p>Cool Store Company products are all made in America and very cool things.</p>
-            </div>    
-        </div>
-    </footer>
+
+        <!-- ////Skip Nav Component -->
+        <div class="skip-nav"><a href="#content" class="skip-nav__link">Skip to Content</a></div>
+
+        <!-- ////Page Header Component -->
+        <header class="page-header" role="banner">
+            <div class="page-header__branding"> 
+                
+                <!-- ////Logo Link Component -->
+                <a class="logo-link" href="/" title="go to home page"><img class="logo-link__image" src="http://placehold.it/100x100" alt="logo image"></a>
+
+            </div>
+            <div class="page-header__navigation">
+                
+                <!-- ////Primary Nav Component -->
+                <nav class="primary-nav" role="navigation">
+                    <h1 class="primary-nav__heading">Primary Site Navgation</h1>
+                    <a class="primary-nav__toggle-link" href="#">☰ Menu</a>
+                    <ul class="primary-nav__list">
+                        <li class="primary-nav__item"><a class="primary-nav__link" href="#">About Us</a></li>
+                        <li class="primary-nav__item"><a class="primary-nav__link" href="#">Products</a></li>
+                        <li class="primary-nav__item"><a class="primary-nav__link" href="#">News</a></li>
+                        <li class="primary-nav__item"><a class="primary-nav__link" href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <!-- ////Page Content Component -->
+        <main class="page-content" id="content" role="main">
+
+            <!-- ////Banner Component -->
+            <section class="banner" role="region">
+                <h1 class="banner__heading">The Flowtron 9000 is Here!</h1>
+                <div class="banner__content">
+                    <p>Flowtron 9000 will exceed all your expectations and meet all of your needs. And it's great!</p>
+                </div>
+                <div class="banner__actions">
+                    <!-- ////Button Component -->
+                    <a class="button" href="flowtronpage.html">Buy One Now!</a>
+                </div>
+            </section>
+
+            <!-- ////Summary Component -->
+            <section class="summary" role="region">
+                <h1 class="summary__heading">New Products</h1>
+                <div class="summary__content">
+
+                    <!-- ////HTML Component -->
+                    <div class="html">
+                        <p>Here's this month's new products. <a href="#">Contact Us</a> to learn more.</p>
+                    </div>
+
+                    <!-- ////Grid Component -->
+                    <div class="grid">
+                        <div class="grid__item">
+                            <article>
+                                <img src="http://fillmurray.com/100/100" alt="Bill Murray Product">
+                                <h1>New Product</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="button">check it out</a>
+                            </article>
+                        </div>
+                        <div class="grid__item">
+                            <article>
+                                <img src="http://fillmurray.com/100/100" alt="Bill Murray Product">
+                                <h1>New Product</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="button">check it out</a>
+                            </article>
+                        </div>
+                        <div class="grid__item">
+                            <article>
+                                <img src="http://fillmurray.com/100/100" alt="Bill Murray Product">
+                                <h1>New Product</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="button">check it out</a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary__actions">
+                    <a href="#">See all new products</a>
+                </div>
+            </section>
+
+            <!-- ////Summary Component -->
+            <section class="summary" role="region">
+                <h1 class="summary__heading">Sales Person of the Month</h1>
+                <div class="summary__content">
+
+                    <!-- ////HTML Component -->
+                    <div class="html">
+                        <h1>Billy Murr</h1>
+                        <img src="http://fillmurray.com/200/150" alt="Kyle Wagner">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste placeat consectetur sequi fugit magnam blanditiis cum itaque distinctio et id.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ////Page Footer Component -->
+        <footer class="page-footer" role="contentinfo">
+            <div class="page-footer__branding">
+                <!-- Logo Link Component -->
+                <a class="logo-link" href="/" title="go to home page"><img class="logo-link__image" src="http://placehold.it/100x100" alt="logo image"></a>
+            </div>
+            <div class="page-footer__navigation">
+
+                <!-- ////Footer Nav Component -->
+                <nav class="footer-nav" role="navigation">
+                    <h1 class="footer-nav__heading">Footer Nav</h1>
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">About Us</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Products</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">News</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Contact Us</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Community</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Newsroom</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Legal</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Privacy Policy</a></li>
+                        <li class="footer-nav__item"><a class="footer-nav__link" href="#">Site Map</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <small class="page-footer__copyright">© 2016 Cool Store Company is a subsidiary of Even Cooler Store Company.</small>
+            <div class="page-footer__content">
+
+                <!-- ////HTML Component -->
+                <div class="html">
+                    <p>Cool Store Company products are all made in America and very cool things.</p>
+                </div>   
+                 
+            </div>
+        </footer>
+    </div>
     <script src="scripts/site.min.js"></script>
 </body>
 </html>
