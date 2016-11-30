@@ -1,9 +1,39 @@
 @mixin base() {
     background-color: $component-content-inverse-background;
+    border-radius: 0.3rem;
     color: $component-content-inverse-text;
     padding: 1rem;
 }
 
 .project-card {
     @include base;
+
+    &__heading {
+        font-size: 1.4rem;
+    }
+
+    &__image {
+        border-radius: 0.3rem;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    &__description {
+
+    }
+
+    &__actions {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0 0 0 -1rem;
+        padding: 0;
+    }
+
+    &__action {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        margin: 0 0 1rem 1rem;
+    }
 }
