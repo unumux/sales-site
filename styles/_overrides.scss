@@ -3,3 +3,63 @@
     color: #fff;
     text-shadow: 1px 1px 3px #000;
 }
+
+.card {
+    background-color: $component-content-positive-background;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    color: $component-content-positive-text;
+
+    @media screen and (min-width: 801px) {
+       display: block;
+       overflow: hidden;
+       text-align: left;
+       padding: 1em;
+    }
+
+
+    h1 {
+        font-size: 2em;
+        order: 1;
+        flex: 0 0 100%;
+        align-content: space-around;
+
+        @media screen and (min-width: 801px) {
+
+            float: right;
+            margin-top: .25em;
+            width: 68%;
+        }
+    }
+
+    img {
+        flex: 0 0 100%;
+        filter: grayscale(100%);
+        max-width: 300px;
+        order: 2;
+        margin: 0 auto;
+        border: 5px solid $component-content-positive-border;
+        transition: filter .5s;
+        &:hover {
+            filter: grayscale(0);
+        }
+        @media screen and (min-width: 801px) {
+            float: left;
+            width: 30%;
+            max-width: inherit;
+            margin-right: 1%;
+        }
+    }
+
+    p { 
+        order: 3;
+        flex: 0 0 100%;
+        padding: 1em 0;
+        @media screen and (min-width: 801px) {
+            padding: .5em 0;
+            width: 68%;
+            float: right;
+        }
+    }
+}
