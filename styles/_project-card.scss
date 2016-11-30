@@ -1,0 +1,9 @@
+@mixin base() {
+    background-color: $component-content-inverse-background;
+    color: $component-content-inverse-text;
+    padding: 1rem;
+}
+
+.project-card {
+    @include base;
+}
