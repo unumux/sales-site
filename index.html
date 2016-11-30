@@ -70,27 +70,27 @@
                 <!-- ////Grid Component -->
                 <div class="grid">
                     <div class="grid__item">
-                        <article>
-                            <h1>Megathing</h1>
-                            <img src="http://placehold.it/100x100" alt="Bill Murray Product">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="button">check it out</a>
+                        <article class="project-card">
+                            <h1 class="project-card__heading">Megathing</h1>
+                            <img class="project-card__image" src="http://placehold.it/100x100" alt="Bill Murray Product">
+                            <p class="project-card__description">Lorem ipsum dolor sit amet.</p>
+                            <a class="project-card__link" href="#" class="button">check it out</a>
                         </article>
                     </div>
                     <div class="grid__item">
-                        <article>
-                            <h1>Coolinium</h1>
-                            <img src="http://placehold.it/300x100" alt="Bill Murray Product">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="button">check it out</a>
+                        <article class="project-card">
+                            <h1 class="project-card__heading">Coolinium</h1>
+                            <img class="project-card__image" src="http://placehold.it/300x100" alt="Bill Murray Product">
+                            <p class="project-card__description">Lorem ipsum dolor sit amet.</p>
+                            <a class="project-card__link" href="#" class="button">check it out</a>
                         </article>
                     </div>
                     <div class="grid__item">
-                        <article>
-                            <h1>Best Most Ultimate</h1>
-                            <img src="http://placehold.it/200x200" alt="Bill Murray Product">
-                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                            <a href="#" class="button">check it out</a>
+                        <article class="project-card">
+                            <h1 class="project-card__heading">Best Most Ultimate</h1>
+                            <img class="project-card__image" src="http://placehold.it/200x200" alt="Bill Murray Product">
+                            <p class="project-card__description">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                            <a class="project-card__link" href="#" class="button">check it out</a>
                         </article>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
 
                 <!-- ////Free Range HTML Component -->
                 <div class="card">
-                    <h1>Bob Smith</h1>
+                    <h1>Buddy Smith</h1>
                     <img src="images/elf-1.jpg" alt="Employee Photo">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste placeat consectetur sequi fugit magnam blanditiis cum itaque distinctio et id.</p>
                 </div>
@@ -122,10 +122,11 @@
             <!-- Logo Link Component -->
             <a class="logo-link" href="/" title="go to home page"><img class="logo-link__image" src="http://placehold.it/100x100" alt="logo image"></a>
         </div>
+        <small class="page-footer__copyright">© 2016 Cool Store Company is a subsidiary of Even Cooler Store Company.</small>
         <div class="page-footer__navigation">
 
             <!-- ////Footer Nav Component -->
-            <nav class="footer-nav" role="navigation">
+            <nav class="footer-nav" role="navigation" aria-label="Footer Navigation">
                 <h1 class="footer-nav__heading--sr">Footer Nav</h1>
                 <ul class="footer-nav__list">
                     <li class="footer-nav__item"><a class="footer-nav__link" href="#" aria-label="About Us">About Us</a></li>
@@ -140,7 +141,6 @@
             </nav>
 
         </div>
-        <small class="page-footer__copyright">© 2016 Cool Store Company is a subsidiary of Even Cooler Store Company.</small>
     </footer>
     <script src="scripts/site.min.js"></script>
 </body>
