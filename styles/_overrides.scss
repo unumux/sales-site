@@ -6,7 +6,6 @@
 }
 
 .card {
-    background-color: $component-content-positive-background;
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
@@ -22,13 +21,21 @@
 
 
     h1 {
-        font-size: 2em;
+        //font-size: 2em;
         order: 1;
         flex: 0 0 100%;
         align-content: space-around;
 
         @media screen and (min-width: 801px) {
 
+            float: right;
+            margin-top: .25em;
+            width: 68%;
+        }
+    }
+
+    h2 {
+        @media screen and (min-width: 801px) {
             float: right;
             margin-top: .25em;
             width: 68%;
@@ -66,4 +73,8 @@
             float: right;
         }
     }
+}
+
+.project-card-two {
+    background-color: $component-content-positive-background;
 }
